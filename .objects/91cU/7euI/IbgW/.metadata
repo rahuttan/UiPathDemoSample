@@ -1,0 +1,13 @@
+﻿{
+  "Id": "IbgW9kLN-kiH6yQbz-QEsw",
+  "Reference": "kWxMFSA3nEqdwlNCYsNV1g/IbgW9kLN-kiH6yQbz-QEsw",
+  "ParentRef": "kWxMFSA3nEqdwlNCYsNV1g/7euI3Y8XLkm2Uwr4eX_0xw",
+  "Name": "Chrome: Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. ",
+  "Type": "Screen",
+  "Created": "2023-02-19T16:53:00.5331986Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=22.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=23.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-02-19T16:53:00.5331986Z"
+}

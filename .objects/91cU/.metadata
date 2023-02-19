@@ -1,0 +1,12 @@
+﻿{
+  "Id": "91cUXOLaM0ao3CSigKVKnA",
+  "Reference": "kWxMFSA3nEqdwlNCYsNV1g/91cUXOLaM0ao3CSigKVKnA",
+  "Name": "Chrome: Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. ",
+  "Type": "App",
+  "Created": "2023-02-19T16:53:00.4742341Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=22.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=23.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-02-19T16:53:00.4742341Z"
+}

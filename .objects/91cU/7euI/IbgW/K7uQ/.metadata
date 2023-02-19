@@ -1,0 +1,14 @@
+﻿{
+  "Id": "K7uQKMjvYEiBPf-Dp-ZS6w",
+  "Reference": "kWxMFSA3nEqdwlNCYsNV1g/K7uQKMjvYEiBPf-Dp-ZS6w",
+  "ParentRef": "kWxMFSA3nEqdwlNCYsNV1g/IbgW9kLN-kiH6yQbz-QEsw",
+  "Name": "APPLE iPhone",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Created": "2023-02-19T16:54:10.0179066Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=22.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=23.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-02-19T16:54:10.0179066Z"
+}

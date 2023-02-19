@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="v40m6L8S1kixoM6HNDdEjA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://www.flipkart.com/" DesignTimeRectangle="692, 175, 20, 20" DesignTimeScaleFactor="1" ElementType="Icon" FriendlyName="'SVG'" FullSelectorArgument="&lt;webctrl tag='svg' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='svg' type='' class='' aaname='' /&gt;" Guid="f3972212-8f3c-4c6c-92ef-7c0256b75fd0" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFZSURBVEhL7ZStTgNBEIB5HAyynsAL8ALlBWoRFeAAWQMBCYqgIEgabEWDRGCQYAk9+sfv0O+42e6219lNCsHwJWtuZ/fbndm5Bfll/k5w//ghuxcDWT/sSmWrI2uNZ6kd9+T8+qWISKNUsHc5kMWNp5ljdSeT24f3ItpmSlA/7buNKpud/BYIGdWD7nhudKsUSSC4unl1GyDK+p/FzJj23VsuJoabxAgEK6MFLOSkFkj0IGeRmjgB19VFbBBD01U76hVfynECTqKCFPQhUAsLJ/BfTgqp8U7g57WsuJPwuoilPyycgE1VwOksiCU1xCKycALQHoi9cb9X6HiLQECwvnEk+81hkC7SyK9DN1/ezqLpDATAyVVijaX6dww1sCRTAuAmfhr8QTOetIb5xvrNkpQKFBaRFopOn/h1YS5FYgpipEjmEoAvIa2TzC0AJLN650cEFv+CCCJf/OBfn+VMLpIAAAAASUVORK5CYII=" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books &amp;amp; More. Best Offers!' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Version="V1" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="334ad98b8ad3d73ee722b9ca9ef1cc05.png" xmlns="">0lO4l3c2qnUK_S8dpRlBTfQ</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,183 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="918,2013" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ss="clr-namespace:System.Security;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <scg:List x:TypeArguments="x:String" Capacity="82">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.ExtractData</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.Excel.Activities</x:String>
+      <x:String>UiPath.Mail</x:String>
+      <x:String>UiPath.Mail.SMTP.Activities</x:String>
+      <x:String>UiPath.Mail.Activities</x:String>
+      <x:String>System.Net</x:String>
+    </scg:List>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="56">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Data.SqlClient</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.Mail</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities.Design</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="538,1948" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="sd:DataTable" Default="[New System.Data.DataTable]" Name="ExtractDataTable" />
+      <Variable x:TypeArguments="x:String" Name="Product" />
+      <Variable x:TypeArguments="ss:SecureString" Name="PasswordVar">
+        <Variable.Default>
+          <VisualBasicValue x:TypeArguments="ss:SecureString" ExpressionText="(new System.Net.NetworkCredential(&quot;&quot;, &quot;mqfhbx&quot;)).SecurePassword" />
+        </Variable.Default>
+      </Variable>
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Sequence sap:VirtualizedContainerService.HintSize="496,1597" sap2010:WorkflowViewState.IdRef="Sequence_7">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="434,239" sap2010:WorkflowViewState.IdRef="InputDialog_1" IsPassword="False" Label="Product Name" Title="Please enter the product to search in Flipkart">
+        <ui:InputDialog.Result>
+          <OutArgument x:TypeArguments="x:String">[Product]</OutArgument>
+        </ui:InputDialog.Result>
+      </ui:InputDialog>
+      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Bo" sap:VirtualizedContainerService.HintSize="434,1207" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="7ff4916f-7aaf-4d8f-82b9-8030f9ec536d" Version="V2">
+        <uix:NApplicationCard.Body>
+          <ActivityAction x:TypeArguments="x:Object">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+            </ActivityAction.Argument>
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="400,990" sap2010:WorkflowViewState.IdRef="Sequence_2">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'INPUT'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="358,218" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="7ff4916f-7aaf-4d8f-82b9-8030f9ec536d" Text="[Product]" Version="V3">
+                <uix:NTypeInto.Target>
+                  <uix:TargetAnchorable BrowserURL="https://www.flipkart.com/" DesignTimeRectangle="281, 166, 402, 36" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'INPUT'" FullSelectorArgument="&lt;webctrl tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='text' class='_3704LK' aaname='Search for products, brands and more' /&gt;" Guid="104b2c23-8e1c-4278-a50d-29c823ec3638" ImageBase64="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" InformativeScreenshot="56f2378cf1333722ca0eb4f6f048d62f.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books &amp;amp; More. Best Offers!' /&gt;" SearchSteps="FuzzySelector, Image" Version="V1" Visibility="Interactive" />
+                </uix:NTypeInto.Target>
+              </uix:NTypeInto>
+              <uix:NClick ClickType="Single" DisplayName="Click 'SVG'" sap:VirtualizedContainerService.HintSize="358,157" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="7ff4916f-7aaf-4d8f-82b9-8030f9ec536d" Version="V3">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="https://www.flipkart.com/" ContentHash="v40m6L8S1kixoM6HNDdEjA" DesignTimeRectangle="692, 175, 20, 20" DesignTimeScaleFactor="1" ElementType="Icon" FriendlyName="'SVG'" FullSelectorArgument="&lt;webctrl tag='svg' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='svg' type='' class='' aaname='' /&gt;" Guid="f3972212-8f3c-4c6c-92ef-7c0256b75fd0" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFZSURBVEhL7ZStTgNBEIB5HAyynsAL8ALlBWoRFeAAWQMBCYqgIEgabEWDRGCQYAk9+sfv0O+42e6219lNCsHwJWtuZ/fbndm5Bfll/k5w//ghuxcDWT/sSmWrI2uNZ6kd9+T8+qWISKNUsHc5kMWNp5ljdSeT24f3ItpmSlA/7buNKpud/BYIGdWD7nhudKsUSSC4unl1GyDK+p/FzJj23VsuJoabxAgEK6MFLOSkFkj0IGeRmjgB19VFbBBD01U76hVfynECTqKCFPQhUAsLJ/BfTgqp8U7g57WsuJPwuoilPyycgE1VwOksiCU1xCKycALQHoi9cb9X6HiLQECwvnEk+81hkC7SyK9DN1/ezqLpDATAyVVijaX6dww1sCRTAuAmfhr8QTOetIb5xvrNkpQKFBaRFopOn/h1YS5FYgpipEjmEoAvIa2TzC0AJLN650cEFv+CCCJf/OBfn+VMLpIAAAAASUVORK5CYII=" InformativeScreenshot="334ad98b8ad3d73ee722b9ca9ef1cc05.png" Reference="kWxMFSA3nEqdwlNCYsNV1g/AF6BQfNOokeqPXowKQVU6A" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books &amp;amp; More. Best Offers!' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Version="V1" Visibility="Interactive" />
+                </uix:NClick.Target>
+              </uix:NClick>
+              <uix:NExtractData AppendResults="False" ContinueOnError="True" DataTable="[ExtractDataTable]" DisplayName="Extract Table Data" ExtractDataSettings="&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Structured'&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='Model' ReferenceName='Column0'&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;true&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='New column 1' ReferenceName='Column1'&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;true&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='New column 2' ReferenceName='Column2'&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;true&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataNextLink' /&gt;&#xA;&lt;/Table&gt;" ExtractMetadata="&lt;extract&gt;&lt;row exact='1'&gt;&lt;webctrl tag='div' idx='3' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='a' idx='1' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;/row&gt;&lt;column exact='1' name='Column0' attr='text'&gt;&lt;webctrl tag='div' idx='3' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='a' idx='1' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;/column&gt;&lt;column exact='1' name='Column1' attr='text'&gt;&lt;webctrl tag='div' idx='3' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='a' idx='1' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;/column&gt;&lt;column exact='1' name='Column2' attr='text'&gt;&lt;webctrl tag='div' idx='3' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='a' idx='1' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='span' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;/column&gt;&lt;/extract&gt;" sap:VirtualizedContainerService.HintSize="358,157" sap2010:WorkflowViewState.IdRef="NExtractData_2" LimitExtractionTo="None" MaximumResults="0" Version="V3">
+                <uix:NExtractData.NextLink>
+                  <uix:TargetAnchorable BrowserURL="https://www.flipkart.com/search?q=ipho&amp;otracker=search&amp;otracker1=search&amp;marketplace=FLIPKART&amp;as-show=on&amp;as=off" DesignTimeRectangle="1003, 559, 35, 17" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'Next'" FullSelectorArgument="&lt;webctrl aaname='Next' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Next' tag='SPAN' type='' class='' check:innerText='NEXT' /&gt;" Guid="652d9d4f-af9f-4233-bf1c-5de97ac3f177" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACcAAAAVCAYAAADFEfeTAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGhSURBVEhL7ZQxa8JAFMf7cdz8En6Ijp3cuhWXIoJQaDahiEuH4tqC4FTs1KngoFCpk0Ohg7jFqDEi4d//JZd4Oa8Vz8Uhf3jkcu+9yy/3Hu8CZ6wczlY5nK0ycMO2i8KNC2ewlTux4v05XmbizYfDGBGnmzMK8fM6j9b1vnKGv0K9wpi7BSaf3l6eas5I5lBGuEJtgXEoNykj3MMCH4NVxiYu3eEarRr9VQ/DQMSHGD/H5za+COyudzmd+EeuO9oZUmY42mV3LXf/gGv7kc+kYOShlJwxXaLMdelphYhVFePEt9TbUmWA89CK/pQw0/j6joUDtnh/ZExljqv7+NlTbiSVDdww8NFgaYrNJbx0/0DP6bAz3pjoM/rKb3t3FssKjuug76HIRNHYRji95743wrmTLKf4uNoiGdnCARv0mnxnYzstA9y/ZZW5LOeteKa5muzhKKU0x8Altx6VU5zBddIiGZ0ExzGQzK2DZaVFY4D96lTpT8dRiElX5BNCm58nwlHJ3NLhDCaGcDLTMkNYBVb5joE7N+VwtsrhbHXGcMAvYDr700cYZ9sAAAAASUVORK5CYII=" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Ipho- Buy Products Online at Best Price in India - All Categories | Flipkart.com' /&gt;" SearchSteps="FuzzySelector, Image" Version="V1" Visibility="Interactive" />
+                </uix:NExtractData.NextLink>
+                <uix:NExtractData.Target>
+                  <uix:TargetAnchorable DesignTimeRectangle="8, 111, 1349, 8719" DesignTimeScaleFactor="1" FriendlyName="'Explore PlusiphoLoginBe…'" FullSelectorArgument="&lt;webctrl parentid='container' tag='DIV' /&gt;" Guid="f58dca6d-461b-4a85-987f-efb86009c362" InformativeScreenshot="d6eec027107c8be2dfcabdcb8679ed68.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Ipho- Buy Products Online at Best Price in India - All Categories | Flipkart.com' /&gt;" SearchSteps="Selector" Version="V1" Visibility="Interactive" />
+                </uix:NExtractData.Target>
+              </uix:NExtractData>
+              <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="358,90" sap2010:WorkflowViewState.IdRef="WriteLine_2" Text="[ExtractDataTable.Rows.Count.ToString]" />
+              <ui:WriteRange StartingCell="{x:Null}" AddHeaders="False" DataTable="[ExtractDataTable]" DisplayName="Write Range Workbook" sap:VirtualizedContainerService.HintSize="358,116" sap2010:WorkflowViewState.IdRef="WriteRange_1" SheetName="Product List" WorkbookPath="ProductData.xlsx" />
+            </Sequence>
+          </ActivityAction>
+        </uix:NApplicationCard.Body>
+        <uix:NApplicationCard.TargetApp>
+          <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Chrome" ContentHash="jAf6cHMMk0uA9YTAqVIvHQ" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAPFSURBVFhHxZZbSBRhFMc/Q0i6vIQVIWW0FZVB+lYIJb1kVE8F2Us3eukl8aGLWpGFdAEvZFAUEUFR+CBBN7ttmlne1rumLu5u6uquOu6u2+646+6cvjPr0DR7atdLNPBjhu+c8/3Pd74z3wxTLnCxDLCzR2Bh1f8UriG52cEp2V8XOJlTxhADanx1i8Betey3sWiQY+pZuM3DHMiU7K/LZ48TjDWJoSAVHa918Kx4C4hfF4TZ/sRo9RI5xqxfGWYz1q0G/9h8YUo2dJkMiSfa9Gt9zW/XA1RzRxWTVXFg+7AibDwSVh6Dsdpx1EAt1JTFzU2rnnZ+0oECdxr8l6i1UJuBj2f2H4mYQKAlk9+Lw8YjIYnPp2Jpu0LkCjhKQAp+pG1/QQpaQHLnkDY1EROQJvYDSA4IepeTdorARAoABEN3wq4mqh4I+FvB57lN2ij84kMI+mtJm5aoEvCMpctVEF3FIHnnkT6INMHA68znq/eGYggfLVElgAgDe+V9xWq4hWzwCCkw6YqV8QhJ4B7JhEmxlvvYwDFwiJyDIuoEEKFvDTgGL8tJ4B7jSkMEeck7wWUvBLtps1wJJQaf3a74EadD14uobci0EkAmf8TyFcbDULcOrF2pMviMY2hDHxRp69puOnW3aEh37gOw07XAzjTIHCp52qeeb9oJRAJXe+zmbSHmbCPE5LaTuFzreVeH/Oc0ARRPzSvzUaJqDMYDeiWGYVfPBdiMBwseuChBJOFCo7Qxrw72FL0ZGROSmpU4njbPZA54VZlhYjmtYcK7Ct8NjtqS+atDx+GPCMwWXH3albIJrfjqSwYx4FhopWIUGIzxg2WWDPRsslJN96D84mfKXw1/uXkms+SF/kiPVhyxmrbWUP5q5iSB3Pv5g1QCftvS75S/GgYj/EcxAgEbC3j6lw0PdCWZzO0pRi3UqxefY5AUO8aBPSZIzf3XBJzfN1iwvNkPb/Xuvv5yHCeV91qFfMIR3Y9jyumHdHfs/EppRFUBaXi+E8t578Wlb1qhaOnqSK+i5mYwzLsxApI9zu3uX2esqc9opSaPBrkfiLkZ2HgzKPB9wr3G0ls6d7Sh4KvKk8248rwnt0zH75QO7SssF9Ju6McV8ISjBLddrXSjHU++iuqjX37TUcF/4PnDLKCO38XnW4Pc5tX6UjDo43sxQwIWBvi51Sawt6DcTPlTMDDxhxkitCSMUifgtceFNZQ/BYPueSIHZkLT+7Re6hWseHekgvInEJnUzrI4IgemS1npYTN+YrXY6pIbKH8NXJNl/QQY2SMPYJ5++AAAAABJRU5ErkJggg==" InformativeScreenshot="03000d0bfcfe116ecb3a53659c61b060.jpg" Reference="kWxMFSA3nEqdwlNCYsNV1g/IbgW9kLN-kiH6yQbz-QEsw" Selector="&lt;html app='chrome.exe' title='Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books &amp;amp; More. Best Offers!' /&gt;" Title="Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books &amp; More. Best Offers!" Url="https://www.flipkart.com/" />
+        </uix:NApplicationCard.TargetApp>
+      </uix:NApplicationCard>
+    </Sequence>
+    <ui:SendMail Bcc="{x:Null}" Cc="{x:Null}" MailMessage="{x:Null}" Name="{x:Null}" Password="{x:Null}" ReplyTo="{x:Null}" TimeoutMS="{x:Null}" UseOAuth="{x:Null}" Body="Hello All,&#xD;&#xA;&#xD;&#xA;Please find the product data attached&#xD;&#xA;&#xD;&#xA;Thanks&#xD;&#xA;" DisplayName="Send SMTP Mail Message" Email="[FromAddress]" EnableSSL="True" From="[FromAddress]" sap:VirtualizedContainerService.HintSize="496,223" sap2010:WorkflowViewState.IdRef="SendMail_1" IgnoreCRL="False" IsBodyHtml="False" Port="465" SecureConnection="Auto" SecurePassword="[PasswordVar]" Server="smtp.gmail.com" Subject="Flipkart Product Data" To="[ToAddress]">
+      <ui:SendMail.Files>
+        <scg:List x:TypeArguments="InArgument(x:String)" Capacity="4">
+          <InArgument x:TypeArguments="x:String">
+            <Literal x:TypeArguments="x:String">ProductData.xlsx</Literal>
+          </InArgument>
+        </scg:List>
+      </ui:SendMail.Files>
+    </ui:SendMail>
+  </Sequence>
+</Activity>
